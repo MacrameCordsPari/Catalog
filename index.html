@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Macrame Cords Pari Catalog</title>
+    <style>
+        /* General mobile-only setup */
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #b79c87;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start; 
+            flex-direction: column;
+            min-height: 100vh; 
+            overflow-x: hidden; 
+        }
+
+        html, body {
+            width: 100%;
+            max-width: 100%;
+            overflow-x: hidden;
+        }
+
+        /* Ensure full-width images */
+        img {
+            width: 100%;
+            height: auto;
+            display: block;
+            margin: 0;
+            padding: 0; 
+        }
+
+        /* Footer setup (appears at the end of the page) */
+        .footer {
+            background-color: #ffc4d4;
+            padding: 10px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            box-shadow: 0 -5px 10px rgba(0, 0, 0, 0.1);
+            width: 100%;
+        }
+
+        .footer-icon img {
+            width: 40px; 
+            height: 40px; 
+        }
+
+        /* Right icons setup (fixed at the bottom-right, always visible) */
+        .right-icons {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-end;
+            background-color: rgba(255, 196, 212, 0.7); /* Light pink background */
+            padding: 5px;
+            border-radius: 10px;
+            z-index: 1000; /* Ensures it is above most elements */
+        }
+
+        .right-icon {
+            margin: 5px 0;
+            opacity: 1;
+        }
+
+        .right-icon img {
+            width: 40px; 
+            height: 40px; 
+            transition: background-color 0.3s ease;
+        }
+
+        .right-icon:hover img {
+            background-color: #ffc4d4; /* Pink hover background */
+            border-radius: 50%;
+            padding: 5px;
+        }
+
+        /* Remove text decoration and keep layout clean */
+        .footer-icon a, .right-icon a {
+            display: block;
+            color: inherit;
+            text-decoration: none;
+        }
+
+        /* Media query to keep the layout strictly for mobile devices */
+        @media screen and (max-width: 600px) {
+            .footer-icon img, .right-icon img {
+                width: 35px;
+                height: 35px;
+            }
+
+            .footer {
+                padding: 5px;
+            }
+
+            .right-icons {
+                right: 10px;
+                bottom: 35px; 
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Images displayed on the full width of the phone -->
+    <img src="Catalog/1.png" alt="Macrame Cords Pari Catalogue">
+    <img src="Catalog/2.png" alt="Macrame Cords Pari Introduction">
+    <img src="Catalog/3.png" alt="Macrame Cords Pari Twisted Cords">
+    <img src="Catalog/4.png" alt="Macrame Cords Pari Single Strand">
+    <img src="Catalog/5.png" alt="Macrame Cords Pari Braided Cords">
+    <img src="Catalog/6.png" alt="Macrame Cords Pari Other">
+    <img src="Catalog/7.png" alt="Macrame Cords Pari Variation">
+    <img src="Catalog/8.png" alt="Macrame Cords Pari Colour Chart">
+    <img src="Catalog/9.png" alt="Macrame Cords Pari Order">
+    <img src="Catalog/10.png" alt="Macrame Cords Pari Delivery">
+    <img src="Catalog/11.png" alt="Macrame Cords Pari Contact">
+    <img src="Catalog/12.png" alt="Macrame Cords Pari About">
+
+    <!-- Fixed right section with icons (bottom right, always visible) -->
+    <div class="right-icons">
+        <div class="right-icon">
+            <a href="https://www.instagram.com/macrame_cords_pari" target="_blank">
+                <img src="Logos/Instagram.png" alt="Instagram Icon">
+            </a>
+        </div>
+        <div class="right-icon">
+            <a href="https://wa.me/917500456456">
+                <img src="Logos/Whatsapp.png" alt="WhatsApp Icon">
+            </a>
+        </div>
+    </div>
+
+    <!-- Static footer section (at the bottom of the page) -->
+    <div class="footer">
+        <div class="footer-icon">
+            <a href="https://www.instagram.com/macrame_cords_pari" target="_blank">
+                <img src="Logos/Instagram.png" alt="Instagram Icon">
+            </a>
+        </div>
+        <div class="footer-icon">
+            <a href="https://wa.me/917500456456">
+                <img src="Logos/Whatsapp.png" alt="WhatsApp Icon">
+            </a>
+        </div>
+        <div class="footer-icon">
+            <a href="https://youtube.com/@macramecordspari" target="_blank">
+                <img src="Logos/Youtube.png" alt="YouTube Icon">
+            </a>
+        </div>
+        <div class="footer-icon">
+            <a href="https://www.linkedin.com/company/macrame-cords-pari/" target="_blank">
+                <img src="Logos/Linkedin.png" alt="LinkedIn Icon">
+            </a>
+        </div>
+        <div class="footer-icon">
+            <a href="http://macramecordspari.in/" target="_blank">
+                <img src="Logos/Web.png" alt="Web Icon">
+            </a>
+        </div>
+    </div>
+
+</body>
+</html>
